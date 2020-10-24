@@ -1,0 +1,59 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    height: 100vh;
+    background-image: url('perkusja.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.keys {
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.key {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    padding:1rem;
+    transition: all 0.08s;
+    border: 2px solid gold;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+
+
+}
+
+.effect {
+    background-color: maroon;
+    border: 2px soli yellow;
+    border-radius: 1rem;
+    font-size: 1.9rem;
+    color: white;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945);
+     
+}
+.logo{
+    position:absolute;
+    top: 10px;
+    left:5px;
+
+}
